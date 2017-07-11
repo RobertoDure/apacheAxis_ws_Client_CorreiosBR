@@ -31,7 +31,7 @@ public class Teste {
 			conn.setRequestProperty("User-Agent","Jakarta Commons-HttpClient/3.1");
 			// Canal de Saída da Requisição
 			OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
-			// Mensagem no Formato SOAP
+			// Mensagem no Formato SOAP   
 			String xml ="<soapenv:Envelope "
 					+ "xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/"
 					+ "xmlns:res=http://resource.webservice.correios.com.br/>"
